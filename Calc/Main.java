@@ -7,13 +7,14 @@ public class Main
         Scanner sc = new Scanner(System.in);
         int num1, num2, num3;
 
-        String input = sc.nextLine();
-        String[] value =  input.split(" ");
-        num1 = Integer.parseInt(value[0]);
-        num2 = Integer.parseInt(value[1]);
-        num3 = Integer.parseInt(value[2]);
+        System.out.println("숫자 1 입력: ");
+        num1 = sc.nextInt();
+        System.out.println("숫자 2 입력: ");
+        num2 = sc.nextInt();
+        System.out.println("숫자 3 입력: ");
+        num3 = sc.nextInt();
 
-        System.out.println(num1 + num2 + num3);
+        System.out.println(num1 - num2 - num3);
     }
 }
 
