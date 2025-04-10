@@ -6,16 +6,16 @@ public class Score
     {
         Scanner sc = new Scanner(System.in);
 
-        int my_score;
-        my_score = sc.nextInt();
+        int game_hour;
+        game_hour = sc.nextInt();
 
-        if (my_score >= 60)
+        if (game_hour >= 4)
         {
-            System.out.println("PASS");
+            System.out.println("게임 중독입니다");
         }
         else
         {
-            System.out.println("NONE-PASS");
+            System.out.println("게임 중독이 아닙니다");
         }
     }
 }
