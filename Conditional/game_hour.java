@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Score
+public class game_hour
 {
     public static void main(String[] args)
     {
