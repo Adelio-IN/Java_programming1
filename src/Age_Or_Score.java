@@ -21,7 +21,7 @@ public class Age_Or_Score
         }
         if(age <= 30)
         {
-            System.out.println("사용자가 30세 미만입니다")
+            System.out.println("사용자가 30세 미만입니다");
         }
     }
 }
