@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class Undo
 {
     public static void main(String[] args)
     {
